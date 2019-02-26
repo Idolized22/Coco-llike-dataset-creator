@@ -44,5 +44,5 @@ categories=[
 ],
         )
 
-Headstones_var = COCO_DATASET(InputDict,dict(train=60,test=20,val=20),'NameOf THE DataSet', SetsInfo)
+DATASET_var = COCO_DATASET(InputDict,dict(train=60,test=20,val=20),'NameOf THE DataSet', SetsInfo)
 print(datetime.datetime.now().strftime('%m-%d-%Y %H:%M:%S'),'DATA created succefuly at:', InputDict['output'])
