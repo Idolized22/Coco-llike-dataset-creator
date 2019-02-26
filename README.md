@@ -1,9 +1,9 @@
-# Coco-llike-dataset-creator-
+# Coco-like-dataset-creator
 Convert Data created with labelme to coco format data set. 
-This repo is aimmed at creating a full dataset which include the following subsets: 
+This repo is aimed  at creating a full dataset which include the following subsets: 
 
-        1. train set ~60% of the input images by defualt 
-        2. test set ~20% of the input images bt defualt 
+        1. train set ~60% of the input images by default  
+        2. test set ~20% of the input images bt default 
         3. validation set ~20% of the input images. 
 The output has been tasted (so far all I can tell is that the training began)
 on [facebookresearch/maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
@@ -23,9 +23,9 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
 2. edit CreateDataSet inputDict  as follows 
   -input = path\to\your\Inputfolder   at the following format : (Bug therefore the fornat is required ) 
    * Inputfoder
-      -subfolder1 - conntatning data - Imgs and annotations  
-      -subfolder2 - contatning data - Imgs and annotations 
-      -subfolder3 - contatning data  - Imgs and annotations 
+      -subfolder1 - containing  data - Imgs and annotations  
+      -subfolder2 - containing  data - Imgs and annotations 
+      -subfolder3 - containing  data  - Imgs and annotations 
    * outputfoler= path\to\where\output\data\will\be\created
    *labels = 'path\to\label.txt'
   
@@ -41,7 +41,7 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
         in order to avoid using them for appending the dataset. 
 - [ ] 7. use imantics - Annotation to calculate BBox and area in stade of labelme function 
 
- ## Bugs : 
+ ##  Knowon Bugs : 
  - [X] solved - appended empty annotations to the sets
  - [ ]  Input dircteroy has to be parent directory bug 
  
