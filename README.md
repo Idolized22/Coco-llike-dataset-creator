@@ -1,5 +1,5 @@
 # Coco-like-dataset-creator
-Convert Data created with [labelme] (https://github.com/wkentaro/labelme#anaconda ) to coco format data set. 
+Convert Data created with [labelme](https://github.com/wkentaro/labelme#anaconda ) to coco format data set. 
 This repo is aimed  at creating a full dataset which include the following subsets: 
 
         1. train set ~60% of the input images by default  
@@ -50,8 +50,8 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
 
 
 ## credits: 
-[labelme] (https://github.com/wkentaro/labelme#anaconda )
-[pycococreator] (https://github.com/waspinator/pycococreator)       
+[labelme](https://github.com/wkentaro/labelme#anaconda )
+[pycococreator](https://github.com/waspinator/pycococreator)       
 
 
 
