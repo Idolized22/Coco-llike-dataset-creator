@@ -32,18 +32,9 @@ In addition, This File automatilcaly creates 3 sets , with used defined ratio
     3. add support to appending exsiting dataset (MUST Backup   Previous version to dir\old+timeframe )   
     4. re-enble parsersupport 
     5. solve directory in directory bug for list of json files gathering 
-
-   LOG:
-    #ver10d4d1 : BUG Found some of the mask generate area is none    
-    #ver9.4 : iscrowded = None  
-    #Ver8.5 : creation of 3 sets has been succesful 
-    and the tested on  pycococreator example notebook
-    in order to see that the annotations =maches the images. 
-    
     
     BUGS 
-	solved : 
-    append empty masks to annotation 
+    solved :append empty masks to annotation 
     finds json files works only for directory inside directory 
 Credits: 
 
@@ -59,7 +50,6 @@ import json
 import os
 import os.path as osp
 import sys
-#from Ido_Modify_label2coco_Parser_ver1_18feb19 import * 
 import numpy as np
 import PIL.Image
 
@@ -75,7 +65,7 @@ import string
 
 from ModfiyImagesSizes import * 
 from matplotlib import pyplot as plt 
-from IdoGetPolygon import *
+from GetPolygon import *
 
 ###ver9 imports: 
 #from pycococreatortools import *
