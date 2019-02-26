@@ -32,17 +32,17 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
 3. run the CreateDataSet.py script  
 
 ## TODO: 
-- []  1. add annotations field BoundingBox 
-- []  2. convert to work with iscrowded =0 , aka polygons dots 
-- []  3. add support to appending exsiting dataset (MUST Backup   Previous version to dir\old\setname+timeframe )   
-- []  4. re-enble parser 
-- []  5. solve directory in directory bug for list of json files gathering 
-- []  6. add a change directory function to \usedforcreatingdataset of input images 
+- [ ]  1. add annotations field BoundingBox 
+- [ ]  2. convert to work with iscrowded =0 , aka polygons dots 
+- [ ]  3. add support to appending exsiting dataset (MUST Backup   Previous version to dir\old\setname+timeframe )   
+- [ ]  4. re-enble parser 
+- [ ]  5. solve directory in directory bug for list of json files gathering 
+- [ ]  6. add a change directory function to \usedforcreatingdataset of input images 
         in order to avoid using them for appending the dataset. 
-- [] 7. use imantics - Annotation to calculate BBox and area in stade of labelme function 
+- [ ] 7. use imantics - Annotation to calculate BBox and area in stade of labelme function 
 
  ## Bugs : 
- - [] solved - appended empty annotations to the sets 
+ - [ ] solved - appended empty annotations to the sets 
  
 
 
