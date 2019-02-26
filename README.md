@@ -42,7 +42,9 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
 - [ ] 7. use imantics - Annotation to calculate BBox and area in stade of labelme function 
 
  ## Bugs : 
- - [ ] solved - appended empty annotations to the sets 
+ - [ x] solved - appended empty annotations to the sets
+ - [  ]  Input dircteroy has to be parent directory bug 
+ 
  
 
 
