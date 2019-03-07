@@ -19,8 +19,8 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
 
 ## How to Create the Dataset 
 
-1. use the [ wkentaro/labelme](https://github.com/wkentaro/labelme) to annotate your data 
-2. edit CreateDataSet inputDict  as follows 
+1. Use the [ wkentaro/labelme](https://github.com/wkentaro/labelme) to annotate your data 
+2. Edit CreateDataSet inputDict  as follows 
   -input = path\to\your\Inputfolder   at the following format : (Bug therefore the fornat is required ) 
    * Inputfoder
       -subfolder1 - containing  data - Imgs and annotations  
@@ -28,7 +28,7 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
       -subfolder3 - containing  data  - Imgs and annotations 
    * outputfoler= path\to\where\output\data\will\be\created
    *labels = 'path\to\label.txt'
-   3. verify the output with the following [notebook](https://github.com/waspinator/pycococreator/blob/master/examples/shapes/visualize_coco.ipynb) from [pycococreator] (https://github.com/waspinator/pycococreator)
+   3. Verify the output with the following [notebook](https://github.com/waspinator/pycococreator/blob/master/examples/shapes/visualize_coco.ipynb) from [pycococreator] (https://github.com/waspinator/pycococreator)
   
 3. run the CreateDataSet.py script  
 
@@ -40,11 +40,12 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
 - [ ]  5. solve directory in directory bug for list of json files gathering 
 - [ ]  6. add a change directory function to \usedforcreatingdataset of input images 
         in order to avoid using them for appending the dataset. 
-- [ ] 7. use imantics - Annotation to calculate BBox and area in stade of labelme function 
-
+- [ ]  7. use imantics - Annotation to calculate BBox and area in stade of labelme function 
+- [ ]  8. figure how to add rotated boundingboxes  
  ##  Knowon Bugs : 
  - [X] solved - appended empty annotations to the sets
- - [ ]  Input dircteroy has to be parent directory bug 
+ - [ ]  Input dircteroy has to be parent directory bug
+ - [ ]  Image Resize doesn't mach with mask 
  
  
 
@@ -52,7 +53,9 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
 ## credits: 
 [labelme](https://github.com/wkentaro/labelme#anaconda )
 
-[pycococreator](https://github.com/waspinator/pycococreator)       
+[pycococreator](https://github.com/waspinator/pycococreator) 
+
+[cocoapi](https://github.com/cocodataset/cocoapi)
 
 
 
