@@ -27,7 +27,7 @@ therefore follow the labelme installation instraction at [ wkentaro/labelme](htt
       -subfolder2 - containing  data - Imgs and annotations 
       -subfolder3 - containing  data  - Imgs and annotations 
    * outputfoler= path\to\where\output\data\will\be\created
-   *labels = 'path\to\label.txt'
+   * labels = 'path\to\label.txt'
    3. Verify the output with the following [notebook](https://github.com/waspinator/pycococreator/blob/master/examples/shapes/visualize_coco.ipynb) from [pycococreator] (https://github.com/waspinator/pycococreator)
   
 3. run the CreateDataSet.py script  
